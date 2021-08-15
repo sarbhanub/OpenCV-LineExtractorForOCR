@@ -19,11 +19,11 @@ index = 0
 
 for page in pdf:
      index += 1
-     page.save('data/jpeg/page_'+str(index)+'.jpeg', 'JPEG')
+     page.save(str(jpeg_path)+'/page_'+str(index)+'.jpeg', 'JPEG')
 
 print('Total no. of pages: '+str(index))
 
 # will create the files for the pages
 for pg in range(1, index+1):
-    image = cv.imread('data/jpeg/page_'+str(pg)+'.jpeg')
+    image = cv.imread(str(jpeg_path)+'/page_'+str(pg)+'.jpeg')
     box_extractor(image, pg)

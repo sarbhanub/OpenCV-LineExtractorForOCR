@@ -1,0 +1,6 @@
+opencv
+numpy~=1.20.3
+poppler
+pdf2image~=1.16.0
+opencv-python~=4.5.3.56
+cv2

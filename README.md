@@ -2,7 +2,7 @@
 Detection and Extraction of individual line(s) of text from a pdf document.
 
 ## Functionality
-- Detection of individual lines from a Text Document using OpenCV
+- Detection of individual lines from a Text Document using OpenCV.
 - Extraction of the Exact Coordinates (Pixel Values of the Bounding Boxes) and saving them as a JSON file.
 
 ## Dependencies
